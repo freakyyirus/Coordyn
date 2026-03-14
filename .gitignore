@@ -1,0 +1,38 @@
+# Dependencies
+frontend/node_modules/
+backend/venv/
+venv/
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+backend/**/__pycache__/
+backend/**/*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+*.env.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+backend/coordyn.db
+backend/test_coordyn.db
+
+# Logs
+*.log
+nul
+
+# OS
+.DS_Store
+Thumbs.db
